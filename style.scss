@@ -1,0 +1,35 @@
+*{
+    text-decoration: none;
+}
+
+.head-wrapper{
+    text-align: center;
+}
+
+#display-btn{
+    background-color:orange;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border: #fff;
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+}
+
+.title-wrapper{
+    text-align: center;
+}
+
+.titleList-row{
+    padding: 20px;
+    font-size: 20px;
+    a{
+       &:hover{
+           color: red;
+       } 
+    }
+}
